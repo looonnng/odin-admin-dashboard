@@ -130,7 +130,8 @@ input[type="text"] {
   gap: 1rem;
 }
 
-h3, h4 {
+h3,
+h4 {
   margin-bottom: 0.5rem;
 }
 
@@ -161,6 +162,11 @@ h3, h4 {
     gap: 1rem;
 
     margin-top: auto;
+
+    & a:visited,
+    a:link {
+      color: black;
+    }
   }
 }
 
