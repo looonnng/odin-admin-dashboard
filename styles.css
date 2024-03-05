@@ -42,12 +42,25 @@ input[type="text"] {
 
   padding: 1rem 0 0 2rem;
 
+  & h1 span:not(:last-child) {
+    margin-right: 1rem;
+  }
+
+  & h1 span {
+    font-size: 1.75rem;
+  }
+
   & ul > li {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 
     & a {
       color: #fff;
       font-weight: 600;
+
+      & span {
+        font-size: 1rem;
+        margin-right: 1rem;
+      }
     }
   }
 }
